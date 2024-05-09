@@ -1,0 +1,195 @@
+<html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trang Web Ăn Uống</title>
+        <link type="text/css" rel="stylesheet" href="b2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+    <body>
+            <header class=" d-flex justify-content-between">
+                <h1>Ẩm thực Việt Nam</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Món ăn</a></li>
+                        <li><a href="#">Đồ uống</a></li>
+                        <li><a href="#">Công thức</a></li>
+                        <li><a href="#">Hỗ trợ</a></li>
+                        <div class="cotainer d-flex justify-content-left">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                              Liên hệ
+                              <ion-icon name="search"></ion-icon>
+                            </button>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    ...
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                   
+
+                        </div>
+                    </ul>
+                </nav>
+            </header>
+            
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Vietnam Food Map.jpg" class="d-block w-100"  >
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Sài Gòn sẽ thế nào khi được vẽ chibi_ Cực đáng yêu chứ sao nữa!.jpg" class="d-block w-100" >
+                  </div>
+                  <div class="carousel-item ">
+                    <img src="phở.jpg" class="d-block w-100" >
+                  </div>
+                  <div class="carousel-item ">
+                    <img src="đồ ăn.jpg" class="d-block w-100" >
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+            </div>
+                
+                
+               
+            <section id="featured-dishes" >
+                <h2>Món ăn nổi bật</h2>
+                <div class="dish awsm lb-modal-lock ">
+                    <img src="By Lê Rin.jpg" alt="Món ăn 1">
+                    <h3>Phở</h3>
+                    <details>
+                        <summary>Tinh hoa ẩm thực Việt</summary>
+                        Gắn liền với nền văn minh lúa nước và tồn tại hàng trăm năm, phở Việt theo người Việt đi khắp năm châu, được bạn bè khắp thế giới ưa thích. Dù ngày nay phở cũng đã phát triển và có rất nhiều biến tấu, nhưng bí quyết để có một bát phở "gia truyền" đậm vị xưa vẫn là câu chuyện mang nhiều điều thú vị và ý nghĩa. 
+                    </details>
+                </div>
+                <div class="dish">
+                    <img src="bún.jpg" alt="Món ăn 2">
+                    <h3>Bún</h3>
+                    <details>
+                        <summary>Hương vị truyền thống</summary>
+                        Với nhiều cách thức chế biến, hương vị và cả hình thức của nó cũng vô cùng đa dạng và mang nét trưng của từng vùng, từng địa phương. Không thể phủ nhận được sự sáng tạo và đa dạng của Bún tạo nên nét đặc trưng riêng mang hương vị truyền thống đến khắp mọi miền tổ quốc.
+                    </details>
+                </div>
+                <div class="dish">
+                    <img src="banh mì.jpg" alt="Món ăn 3">
+                    <h3>Bánh mỳ</h3>
+                    <details>
+                        <summary>Dân dã đến giòn tan </summary>
+                        Không ít thực khách nước ngoài thích thú với những ổ bánh vàng ươm được nướng trên than hồng thật giòn trước khi cho nhân vào làm ai nhìn thấy cũng phải thòm thèm. Người ta cũng không còn xem bánh mì là món ăn chơi nữa mà bánh mì đã trở thành món ăn chính cho mọi đối tượng, bánh vừa ngon vừa rẻ lại rất tiện lợi.
+                    </details>
+                </div>
+                <div class="dish">
+                    <img src="cơm nhà.jpg" alt="Món ăn 3">
+                    <h4>Cơm nhà</h4>
+                    <details>
+                        <summary>Bình dân và đạm bạc</summary>
+                        Mâm cơm gia đình là những món ngon mỗi ngày mà bạn sẽ không thể nào quên được. Bởi chúng được nấu từ đôi bàn tay đầy ắp yêu thương của mẹ. Không phải sơn hào, hải vị, bữa cơm gia đình chỉ gồm những thành phẩm dân dã, gần gũi. Nhưng chao ôi khi thưởng thức sao mà ngon đến vậy, hạnh phúc đến lạ.
+                    </details>
+                </div>
+                <div class="dish">
+                    <img src="banh truyen thong.jpg" alt="Món ăn 3">
+                    <h5>Bánh truyền thống</h5>
+                    <details>
+                        <summary>Tinh hoa ẩm thực</summary>
+                        Trong nền văn hóa truyền thống Việt Nam, các loại bánh đã trở nên rất gần gũi và quen thuộc đối với cuộc sống hàng ngày của mỗi người Việt. Và theo thời gian những loại bánh ngày càng trở nên đa dạng, phong phú cả về hình thức lẫn hương vị, ngày càng khẳng định giá trị và hương vị đặc trưng được gìn giữ từ nhiều thế hệ.
+                    </details>
+                </div>
+                <div class="dish">
+                    <img src="ăn vặt.jpg" alt="Món ăn 3">
+                    <h6>Ăn vặt</h6>
+                    <details>
+                        <summary>Đa dạng không cầu kì</summary>
+                        Nếu bạn là tín đồ của những món ăn vặt hấp dẫn thì không thể bỏ qua được.Món ăn hầu như đơn giản nhưng lại có hương vị và màu sắc, bắt mắt. Đồ ăn vặt thường lạ miệng, không gây cảm giác ngán và đầy bụng là nơi lưu giữ những kí ức đẹp của tuổi thơ và trưởng thàng trong mỗi chúng ta. 
+                    </details>
+                </div>
+            </section>
+            
+         <div class="container animate__animated animate__fadeInUp">
+            <h1>Danh Sách Món Ăn</h1>
+            <ul class="meal-suggestions">
+                 <li>Phở</li>
+                 <li>Bún</li>
+                 <li>Bánh mỳ</li>
+                 <li>Cơm nhà</li>
+                 <li>Bánh truyền thống</li>
+                 <li>Ăn vặt</li>
+                </ul>
+            </div>
+                
+               
+                
+
+    <section id="featured-drinks">
+        <h2>Đồ uống nổi bật</h2>
+        <div class="drink">
+            <img src="NGÀY CHẬM VỚI TRÀ ĐÁ VỈA HÈ HÀ NỘI.jpg" alt="Đồ uống 1">
+            <h3>Trà đá</h3>
+            <details>
+                <summary>Trà đá vỉ hè</summary>
+                Không còn xa lạ với nhũng hàng quán với đồ uống tuy không đa dạng nhưng lại mang phong cảnh phong phú. Chỉ cần nhâm nhi cùng với nhũng điếu thuốc thôi cũng đã hài lòng rồi.
+            </details>
+        </div>
+        <div class="drink">
+            <img src="cafe.jpg" alt="Đồ uống 2">
+            <h3>cafe</h3>
+            <details>
+                <summary>Cafe</summary>
+                Là loại thức uống từ già trẻ lớn bé đều thích, tuy không gây hại nhiều nhưng cũng khiến thực khách bất ngờ vì cách chế biến pho phú của người dân Việt
+            </details>
+        </div>
+        <div class="drink">
+            <img src="trà.jpg" alt="Đồ uống 3">
+            <h3>Đồ uống giới trẻ</h3>
+            <details>
+                <summary>Trà sữa </summary>
+                Tuy không mấy ưa chuộng của ng lớn nhưng lại là đồ ưa thích của trẻ nhỏ. Họ có thể uống cả ngày lẫn sáng mà ko thấy ngán với nhưng toping đa dạng.
+            </details>
+        </div>
+    </section>
+    </body>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    
+   
+</html>
